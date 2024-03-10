@@ -2,7 +2,6 @@
 
 from collections import Counter
 def maxFrequencyElement(nums):
-    
     f=Counter(nums)
     freq = [i for i in f.values()]
     m=max(freq)
