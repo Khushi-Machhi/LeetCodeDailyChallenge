@@ -18,4 +18,5 @@ def intersection(nums1, nums2):
         resultSet=set(resultList)
         final=list(resultSet)
         return final
+        
 intersection([4,9,5],[9,4,9,8,4])
