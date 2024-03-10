@@ -1,6 +1,6 @@
 #349.Intersection of Two arrays
 
-def intersection(self, nums1, nums2):
+def intersection(nums1, nums2):
         resultList=list()
         nums1.sort()
         nums2.sort()
@@ -18,3 +18,4 @@ def intersection(self, nums1, nums2):
         resultSet=set(resultList)
         final=list(resultSet)
         return final
+intersection([4,9,5],[9,4,9,8,4])
